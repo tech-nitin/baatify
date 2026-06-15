@@ -11,7 +11,7 @@ export async function sendVerificationEmail(
     console.log('📨 Sending email to:', email);
 
     const { data, error } = await resend.emails.send({
-      from: 'True Feedback <noreply@yourdomain.com>',
+      from: 'True Feedback <onboarding@resend.dev>',
       to: email,
       subject: 'Mystery Message Verification Code',
 
