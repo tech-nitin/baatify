@@ -66,12 +66,21 @@
 }
  
 @layer base {
+
   * {
+
     border-color: hsl(var(--border));
+
   }
 
   body {
-    background-color: hsl(var(--background));
+
+    min-height: 100vh;
+
+    background-color: #f8fafc;
+
     color: hsl(var(--foreground));
+
   }
+
 }
